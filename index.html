@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MANZ PRODUK DIGITAL</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .produk {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+    }
+    .produk h2 {
+      margin-top: 0;
+      font-size: 1.8rem;
+      border-bottom: 2px solid #fff;
+      padding-bottom: 0.5rem;
+    }
+    .produk ul {
+      list-style: none;
+      padding: 0;
+    }
+    .produk li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.8rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .produk li:last-child {
+      border-bottom: none;
+    }
+    .produk .nama {
+      font-weight: bold;
+    }
+    .produk .harga {
+      margin-right: 1rem;
+    }
+    .produk .beli {
+      background-color: #00ffcc;
+      color: #00;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .produk .beli:hover {
+      background-color: #00ccaa;
+    }
+    .pembayaran {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+    }
+    .pembayaran h2 {
+      margin-top: 0;
+      font-size: 1.8rem;
+      border-bottom: 2px solid #fff;
+      padding-bottom: 0.5rem;
+    }
+    .pembayaran .metode {
+      display: flex;
+      align-items: center;
+      margin: 1rem 0;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .pembayaran .metode span {
+      margin-left: 1rem;
+      background-color: cyan;
+      color: black;
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .pembayaran .metode span:hover {
+      background-color: #ddd;
+    }
+    .pembayaran .metode span:active {
+      transform: scale(0.95);
+    }
+    .pembayaran .metode span.copy {
+      display: inline-block;
+      margin-left: 1rem;
+      background-color: #ffdd57;
+      color: black;
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .pembayaran .metode span.copy:hover {
+      background-color: #1e62b4;
+    }
+    .qr-code {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    .qr-code img {
+      width: 200px;
+      height: 200px;
+    }
+        /* QRIS Button */
+        .qris-button {
+            background: #00e676;
+            color: white;
+            margin-top: 15px;
+            width: 100%;
+        }
+
+        .qris-button:hover {
+            background: #00c853;
+        }
+        .qris-button {
+            background: #ffdd57;
+            color: black;
+            font-weight: bold;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.3);
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MANZ PRODUK HOSTING DIGITAL</h1>
+    <p>sᴏʟᴜsɪ ᴛᴇʀʙᴀɪᴋ ᴜɴᴛᴜᴋ ᴋᴇʙᴜᴛᴜʜᴀɴ ᴅɪɢɪᴛᴀʟ ᴀɴᴅᴀ</p>
+  </header>
+
+  <section class="produk">
+    <h2>𝗣𝗔𝗡𝗘𝗟 𝗣𝗧𝗘𝗥𝗢𝗗𝗔𝗖𝗧𝗬𝗟 𝗣𝗥𝗜𝗩𝗔𝗧</h2>
+    <ul>
+      <li><span class="nama">4𝗚𝗕</span><span class="harga">RM. 2.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%204GB%20Panel%20Pterodactyl" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">5𝗚𝗕</span><span class="harga">RM. 2.50</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%205GB%20Panel%20Pterodactyl" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">𝟲𝗚𝗕</span><span class="harga">RM. 3.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%206GB%20Panel%20Pterodactyl" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">𝟳𝗚𝗕</span><span class="harga">RM. 3.50</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%207GB%20Panel%20Pterodactyl" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">8𝗚𝗕</span><span class="harga">RM. 4.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%208GB%20Panel%20Pterodactyl" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">𝗨𝗡𝗟𝗜𝗠𝗜𝗧𝗘𝗗</span><span class="harga">RM. 8.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%20Unlimited%20Panel%20Pterodactyl"class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    </ul>
+  </section>
+
+  <section class="produk">
+    <h2>𝗥𝗘𝗦𝗦/𝗔𝗗𝗠𝗜𝗡 𝗣𝗔𝗡𝗘𝗟 𝗣𝗧𝗘𝗥𝗢𝗗𝗔𝗖𝗧𝗬𝗟</h2>
+    <ul>
+    <li><span class="nama">𝗥𝗘𝗦𝗘𝗟𝗟𝗘𝗥 𝗣𝗔𝗡𝗘𝗟 𝟭𝗕𝗨𝗟𝗔𝗡</span><span class="harga">RM. 8.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20menjadi%20Reseller%20Panel%20Pivat%201Bulan" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+     
+    
+    <li><span class="nama">𝗔𝗗𝗠𝗜𝗡 𝗣𝗔𝗡𝗘𝗟 𝟭𝗕𝗨𝗟𝗔𝗡</span><span class="harga">RM. 10.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20menjadi%20Admin%20Panel%20Pterodactyl%201bulan" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    </ul>
+  </section>
+    
+    <section class="produk">
+    <h2>LIST HARGA DM FF</h2>
+    <ul>
+      <li><span class="nama">25 DM</span><span class="harga">RM. 1.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%2025dm%20ff%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">100 DM</span><span class="harga">RM. 4.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%20100dm%20ff%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">310 DM</span><span class="harga">RM. 11.50</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%20310dm%20ff%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">520 DM</span><span class="harga">RM. 19.20</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%20520dm%20ff%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">1060 DM</span><span class="harga">RM. 37.30</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%201060dm%20ff%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">2180 DM</span><span class="harga">RM. 74.50</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%202180dm%20ff%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">5600 DM</span><span class="harga">RM. 183.60</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%205600dm%20ff%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">11500 DM</span><span class="harga">RM. 379.</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%201500dm%20ff%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li
+      
+    </ul>
+  </section>
+  
+    <section class="produk">
+    <h2>FOLLOWERS</h2>
+    <ul>
+    <li><span class="nama">100 FOLLOWERS</span><span class="harga">RM. 3.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%20100FOLLOWERS%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    <li><span class="nama">300 FOLLOWERS</span><span class="harga">RM. 7.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%20300FOLLOWERS%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    <li><span class="nama">500 FOLLOWERS</span><span class="harga">RM. 11.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%20500FOLLOWERS%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    <li><span class="nama">1000 FOLLOWERS</span><span class="harga">RM. 14.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%201000FOLLOWERS%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    <li><span class="nama">1500 FOLLOWERS</span><span class="harga">RM. 18.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%201500FOLLOWERS%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    </ul>
+  </section>
+
+  <section class="produk">
+    <h2>LIST DM MLBB</h2>
+    <ul>
+      <li><span class="nama">13 DIAMOND</span><span class="harga">RM. 1.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%2013dm%20MLLBB%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">38 DIAMOND</span><span class="harga">RM. 3.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%2038dm%20MLLBB%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">50 DIAMOND</span><span class="harga">RM. 4.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%2050dm%20MLLBB%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">64 DIAMOND</span><span class="harga">RM. 5.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%2064dm%20MLLBB%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">127 DIAMOND</span><span class="harga">RM. 10.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%20127dm%20MLLBB%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+      <li><span class="nama">150 DIAMOND</span><span class="harga">RM. 12.00</span><a href="https://wa.me/601111603866?text=Saya%20ingin%20membeli%20150dm%20MLLBB%20apakah%20ada" class="beli">ʙᴇʟɪ sᴇᴋᴀʀᴀɴɢ</a></li>
+    </ul>
+  </section>
+
